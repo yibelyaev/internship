@@ -1,0 +1,44 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 4px 4px 30px;
+  background-color: transparent;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 100% */
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  border: 1px solid transparent;
+
+
+  &--dark {
+    color: $color-default-white;
+    border-color: $color-default-white;
+    
+    .button__overlay {
+      background-color: $color-default-white;
+    }
+  }
+
+  &--light {
+    color: $color-cerulean-blue;
+    border-color: $color-cerulean-blue;
+    
+    .button__overlay {
+      background-color: $color-cerulean-blue;
+    }
+  }
+}
+
+.button__overlay {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  background-color: transparent;
+  border-radius: 44px;
+}

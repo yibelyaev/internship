@@ -1,0 +1,42 @@
+.features {
+  padding: 50px 106px;
+  background-color: $color-cerulean-blue;
+  border-radius: 20px;
+}
+
+.features__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 32px;
+
+  li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px 62px;
+    border: 1px solid $color-alabaster;
+    border-radius: 16px;
+  }
+}
+
+.features__item h3 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.26px;
+  text-transform: uppercase;
+  color: $color-default-white;
+}
+
+.features__item p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  color: $color-alabaster;
+}
